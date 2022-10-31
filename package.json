@@ -5,11 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lint-fix": "vue-cli-service lint --ext .js,.ts,.vue ./ --fix"
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "lodash": "^4.17.21",
+    "vue": "^2.6.14",
+    "vue-material": "^1.0.0-beta-15"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
